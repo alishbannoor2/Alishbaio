@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">My Portfolio https://alishbanoor.vercel.app/ which features some of my github projects as well as my technical skills.<br><br>This project is built using these technologies.<br><br>▪ React.js<br>▪ Node.js<br>▪ Express.js<br>▪ CSS3<br>▪ VsCode<br>▪ Vercel</p>
+<p align="left">My Portfolio https://www.alishbanoor.online/ which features some of my github projects as well as my technical skills.<br><br>This project is built using these technologies.<br><br>▪ React.js<br>▪ Node.js<br>▪ Express.js<br>▪ CSS3<br>▪ VsCode<br>▪ Vercel</p>
 
 ###
 
