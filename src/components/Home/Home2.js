@@ -4,8 +4,9 @@ import pfp from "../../Assets/pfp.png"; // Change the file extension to .png
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiFillReddit,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -93,6 +94,26 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.reddit.com/user/alishbannoor/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillReddit />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.youtube.com/@Alishbannoor"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                <AiFillYoutube/>
                 </a>
               </li>
             </ul>
