@@ -6,7 +6,6 @@ import {
   AiFillInstagram,
   AiOutlineReddit,
   AiFillYoutube,
-  AiFillDiscord,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -72,16 +71,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillYoutube />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://discordapp.com/users/alishba5330"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillDiscord />
               </a>
             </li>
           </ul>
