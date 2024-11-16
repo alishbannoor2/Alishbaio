@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { TbCertificate } from "react-icons/tb";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -79,6 +79,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
+              >
+                <TbCertificate
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certificates
               </Nav.Link>
             </Nav.Item>
 
