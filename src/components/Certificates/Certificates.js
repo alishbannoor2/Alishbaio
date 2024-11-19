@@ -16,6 +16,8 @@ import c11 from "../../Assets/Certificates/15- Alishba Noor HacktoberFest.png";
 import c12 from "../../Assets/Certificates/7- Alishba Noor IEEE WIE.png";
 import c13 from "../../Assets/Certificates/5- Alishba Noor IEEE CS.png";
 import c14 from "../../Assets/Certificates/4- Alishba Noor IEEE communications Society.png";
+import c15 from "../../Assets/Certificates/17- Alishba Noor NoSQL Concepts.png";
+import c16 from "../../Assets/Certificates/18- Alishba Noor Understanding Cloud Computing.png";
 
 
 
@@ -141,6 +143,22 @@ function Certificates() {
               imgPath={c14}
               isBlog={false}
               title="IEEE Communications Society"
+               />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={c15}
+              isBlog={false}
+              title="NoSQL Concepts "
+               />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={c16}
+              isBlog={false}
+              title="Understanding Cloud Computing "
                />
           </Col>
 
